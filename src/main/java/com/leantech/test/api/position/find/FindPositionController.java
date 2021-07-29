@@ -38,7 +38,7 @@ public class FindPositionController {
             notes = "You can find all the positions saved in data base ",
             nickname = "findAllPositions")
     @ApiResponses(value = {
-            @ApiResponse(code = 201, message = "Positions found", response = ResponseEntity.class)
+            @ApiResponse(code = 200, message = "Positions found", response = ResponseEntity.class)
     })
     @GetMapping(value = "positions", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<PositionResponse>> findAllPositions(){

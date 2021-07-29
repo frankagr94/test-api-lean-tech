@@ -44,7 +44,7 @@ public class FindEmployeeController {
             notes = "By passing in the appropriate parameters, you can find one or more employees ",
             nickname = "findAllEmployees")
     @ApiResponses(value = {
-            @ApiResponse(code = 201, message = "Employees found", response = List.class)
+            @ApiResponse(code = 200, message = "Employees found", response = List.class)
     })
     @GetMapping(value = "employees", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<EmployeeResponse>> findAllEmployees(@RequestParam(value = "position", required = false) String position,
