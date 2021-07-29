@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.leantech</groupId>
-	<artifactId>test</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>test</name>
+	<artifactId>test-api</artifactId>
+	<version>0.0.1</version>
+	<name>test-api</name>
 	<description>Lean Tech technical test</description>
 
 	<properties>
