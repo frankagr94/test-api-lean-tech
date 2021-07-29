@@ -48,7 +48,7 @@ public class UpdateEmployeeController {
             notes = "By passing in the appropriate options, you can update an employee and change to another position ",
             nickname = "updateEmployee")
     @ApiResponses(value = {
-            @ApiResponse(code = 201, message = "Employee updated", response = UpdateEmployeeResponse.class),
+            @ApiResponse(code = 200, message = "Employee updated", response = UpdateEmployeeResponse.class),
             @ApiResponse(code = 404, message = "Position or Employee Not Found", response = UpdateEmployeeResponse.class),
             @ApiResponse(code = 409, message = "Employee update error", response = UpdateEmployeeResponse.class)
     })
